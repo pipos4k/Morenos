@@ -94,7 +94,7 @@ h1 {
 .about-us-content {
     margin-top: 9rem;
     /* margin-bottom: 5rem; */
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     gap: 20px;
 }
@@ -137,17 +137,17 @@ h1 {
 }
 
 .image-wrapper {
-  flex: 1; 
+    flex: 1; 
 }
 
 .image-wrapper img {
-  width: 620px;
-  height: 620px;
-  display: block;
+    width: 620px;
+    height: 620px;
+    display: block;
 }
 
 .content-wrapper {
-  flex: 1; 
+    flex: 1; 
 }
 
 .explore-btn {
@@ -170,18 +170,76 @@ h1 {
 }
 
 .nav-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%; /* Makes them circular */
-  border: none;
-  background-color: #e0e0e0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes them circular */
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-btn:hover {
-  background-color: #333;
-  color: white;
+    background-color: #333;
+    color: white;
+}
+
+#services {
+    margin-right: 700px;
+}
+
+#services-small {
+    margin-right: 500px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+  width: 1356px;
+  height: 591px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.service-card {
+  background-color: #E9E9E9; 
+  /* padding: 40px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  width: 441px;
+}
+
+.service-icon-placeholder {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border: 2px solid blue; 
+}
+
+h2 {
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: #252525;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.explore-btn-wrapper {
+    margin-bottom: 3rem;
+}
+
+.explore-btn {
+    margin-top: 3rem;
 }
