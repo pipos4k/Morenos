@@ -11,23 +11,22 @@
   </head>
   <body class="site-background">
       <header class="video-header">
-        <video class="header-video"  muted loop playinline>
+        <video class="header-video" muted loop playinline>
           <source src="images/morenos_video_homepage.mp4" type="video/mp4">
         </video>
 
         <div class="fade-overlay"></div>
         
         <div class="header-content">
-          <div class="container header-content-inner">
+          <div class="header-content-inner">
             <div class="light-logo">
               <img src="images/logo-light.svg" alt="Morenos Logo">
             </div>
-
             <div class="primary-navigation">
               <nav>
                 <ul>
-                  <li>GET STARTED</li>
-                  <li>&#9776</li>
+                  <li><button class="main-buttons">GET STARTED</button></li>
+                  <li class="nav-hamburger">&#9776</li>
                 </ul>
               </nav>
             </div>
@@ -35,80 +34,184 @@
         </div>
       </header>
 
-      <main id="main" class="container">
+      <main id="main">
         <section>
-          <div class="about-us-content">
+          <div class="about-us-content container">
             <h1>
-              <small>[Future-Proof Your Production]</small>
-              
+              <small style="padding-right: 66px;">[Future-Proof Your Production]</small>
               In a rapidly evolving industrial landscape, staying competitive means embracing the latest technology.A
             </h1>
-            <h1>
-              At E-Morenos, we provide advanced machinery and robotic systems that not only meet today's demands but also anticipate tomorrow's challenges. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
+            <h1 style="margin-top: 3rem;">
+              At E-Morenos, we provide <span class="gray">advanced machinery</span> and <span class="gray">robotic systems</span> that not only meet today's demands but also anticipate tomorrow's challenges. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
             </h1>
-            <div class="about-us-button-wrapper">
-              <button class="about-us-btn">About Us</button>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div id="advanced-products" class="about-us-content">
-            <small id="advanced-products-small">[Advanced Products]</small>
-            <h1>
-              Experience innovative machinery that transforms your vision into reality
-            </h1>
-          </div>
-          <div class="card">
-            <div class="card-controls">
-              <button class="nav-btn prev">&lt</button>
-              <button class="nav-btn next">&gt</button>
-            </div>
-
-            <div class="image-wrapper">
-              <img src="images/package.jpg" alt="Packaging Process">
-            </div>
-
-            <div id="packaging" class="content-wrapper">
-              <h2>Packaging</h2>
-              <p>Food Processing Machinery / Packaging Machinery</p>
-              <p>Filling-bottling Equipment / Product Inspection Equipment</p>
-              <button class="explore-btn">Explore Packaging</button>
+            <div class="button-wrapper">
+              <button class="main-buttons">About Us</button>
             </div>
           </div>
         </section>
 
         <section>
-          <div id="services" class="about-us-content">
-            <small>[Services]</small>
-            <h1> 
-              Experience innovative machinery that transforms your vision into reality
-            </h1>
-            <p>
-              Invest in reliability, precision, and the peace of mind that comes with future-ready solutions. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
-            </p>
-          </div>
-          <div class="service-grid">
-            <div class="service-card">
-              <h2>Bla Bla bla blasda dsa </h2>
-              <p>blalasd adadh dkajdska kldalkj a</p>
-              <div class="service-icon-placeholder"></div>
+          <div class="container">
+            <div id="services" class="about-us-content">
+              <small>[Advanced Products]</small>
+              <h1> 
+                Experience <span class="gray">innovative</span> machinery that transforms your <span class="gray">vision into reality</span>
+              </h1>
             </div>
-            <div class="service-card">
-              <h2>Bla Bla bla blasda dsa </h2>
-              <p>blalasd adadh dkajdska kldalkj a</p>
-              <div class="service-icon-placeholder"></div>
+          
+            <div class="card">
+              <div class="card-controls">
+                <button class="nav-btn prev">&lt</button>
+                <button class="nav-btn next">&gt</button>
+              </div>
+
+              <div class="image-wrapper">
+                <img src="images/potatoes.svg" alt="Packaging Process">
+              </div>
+
+              <div id="packaging" class="content-wrapper">
+                <h2>Packaging</h2>
+                <p>Food Processing Machinery / Packaging Machinery</p>
+                <p>Filling-bottling Equipment / Product Inspection Equipment</p>
+                <button class="main-buttons">Explore Packaging</button>
+              </div>
             </div>
-            <div class="service-card">
-              <h2>Bla Bla bla blasda dsa </h2>
-              <p>blalasd adadh dkajdska kldalkj a</p>
-              <div class="service-icon-placeholder"></div>
-            </div>
-          </div>
-          <div class="explore-btn-wrapper">
-            <button class="explore-btn">Explone Services</button>
           </div>
         </section>
 
-      </main>
-    </body>
+        <section>
+          <div class="container"> 
+            <div id="services" class="about-us-content">
+              <small>[Services]</small>
+              <h1> 
+                Experience <span class="gray">innovative</span> machinery that transforms your <span class="gray">vision into reality</span>
+              </h1>
+              <p>
+                Invest in reliability, precision, and the peace of mind that comes with future-ready solutions. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
+              </p>
+            </div>
+            <div class="service-grid">
+              <div class="service-card">
+                <h2>Comprehensive Packaging Solutions</h2>
+                <p>We offer complete solutions from machinery to materials, covering every stage of your production process</p>
+                <div class="service-icon-placeholder"></div>
+              </div>
+              <div class="service-card">
+                <h2>Cutting-Edge Technology & Innovation</h2>
+                <p>We offer complete solutions from machinery to materials, covering every stage of your production process.</p>
+                <div class="service-icon-placeholder"></div>
+              </div>
+              <div class="service-card">
+                <h2>Expertise and Dedicated Suppor</h2>
+                <p>We offer complete solutions from machinery to materials, covering every stage of your production process.</p>
+                <div class="service-icon-placeholder"></div>
+              </div>
+            </div>
+            <div class="button-wrapper">
+              <button class="main-buttons">Explone Services</button>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <h1>Our Trusted Partners</h1>
+            <div class="partners-container">
+              <div class="partner-box"><img src="images/aicon_blue.svg"></div>
+              <div class="partner-box"><img src="images/aicon_gray.svg"></div>
+              <div class="partner-box"><img src="images/aicon_gray.svg"></div>
+              <div class="partner-box"><img src="images/aicon_gray.svg"></div>
+              <div class="partner-box"><img src="images/aicon_gray.svg"></div>
+              <div class="partner-box"><img src="images/aicon_gray.svg"></div>
+            </div>
+            <div class="button-wrapper">
+              <button class="main-buttons">Explore All</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="gray-background">
+          <div class="container">
+            <div class="about-us-content">
+              <small>[Blog & News]</small>
+              <h1 class="white-text"> 
+                Stay updated with the latest trends and expert advice in industrial automation
+              </h1>
+            </div>
+            <div class="service-grid">
+              <div class="service-card">
+                <h3>Boost Your Production: The Latest Innovations in Packaging Machinery</h3>
+                <img src="images/robot-vehicles.svg">
+              </div>
+              <div class="service-card">
+                <img src="images/robot-hands.svg">
+              </div>
+              <div class="service-card">
+                <h3>Boost Your Production: The Latest Innovations in Packaging Machinery</h3>
+                <img src="images/robot-crane.svg">
+              </div>
+            </div>
+            <div class="button-wrapper">
+              <button class="main-buttons">Read All</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="gray-background">
+          <div class="container">
+            <div class="card">
+             <div id="packaging" class="content-wrapper">
+               <h2 class="white-text">Stay updated with the latest trends and expert advice in industrial automation</h2>
+              </div>
+              <div class="image-wrapper">
+                <img src="images/electrician-guy.svg" alt="Packaging Process">
+              </div>
+            </div>
+          </div>
+        </section>
+          
+        <footer class="site-footer">
+            <img src="images/logo-dark.svg">
+            <div class="footer-top">
+            <div class="footer-column newsletter">
+              <p><strong>Subscribe to the Morenos Newsletter</strong></p>
+              <p>Latest news, announcements and updates direct to your inbox</p>
+              <input type="email" placeholder="Email address">
+              <label>
+                <input type="checkbox"> By signing up to the newsletter, I agree to Morenos processing my personal data.
+              </label>
+            </div>
+
+            <div class="footer-column">
+              <h3>PRODUCTS</h3>
+              <ul>
+                <li>Packaging</li>
+                <li>Robotics</li>
+                <li>Logistics</li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h3>ABOUT</h3>
+              <ul>
+                <li>Company</li>
+                <li>Services</li>
+                <li>Clients</li>
+                <li>Blog</li>
+                <li>ESG</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="social-links">f | x | in</div>
+            <div class="legal-links">
+              <span>Cookie Policy</span> <span>Privacy Policy</span> <span>Terms of Use</span>
+            </div>
+            <div class="copyright">Copyright © 2025 Morenos | with ❤️ by Darkpony</div>
+          </div>
+        </footer>
+       <main>
+  </body>
 </html>
