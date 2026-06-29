@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">            
   </head>
   <body class="site-background">
       <header class="video-header">
@@ -25,8 +26,8 @@
             <div class="primary-navigation">
               <nav>
                 <ul>
-                  <li><button class="main-buttons">GET STARTED</button></li>
-                  <li class="nav-hamburger">&#9776</li>
+                  <li><button class="main-buttons">Get In Touch</button></li>
+                  <li><button class="burger-button">&#9776</button></li>
                 </ul>
               </nav>
             </div>
@@ -35,50 +36,53 @@
       </header>
 
       <main id="main">
-        <section>
-          <div class="about-us-content container">
-            <h1>
-              <small style="padding-right: 66px;">[Future-Proof Your Production]</small>
-              In a rapidly evolving industrial landscape, staying competitive means embracing the latest technology.A
-            </h1>
-            <h1 style="margin-top: 3rem;">
-              At E-Morenos, we provide <span class="gray">advanced machinery</span> and <span class="gray">robotic systems</span> that not only meet today's demands but also anticipate tomorrow's challenges. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
-            </h1>
-            <div class="button-wrapper">
-              <button class="main-buttons">About Us</button>
-            </div>
+        <div class="sigma-wrapper">
+          <div class="sigma-logo">
+            <img src="images/Sigma-Vector.svg">
           </div>
-        </section>
-
-        <section>
-          <div class="container">
-            <div id="services" class="about-us-content">
-              <small>[Advanced Products]</small>
-              <h1> 
-                Experience <span class="gray">innovative</span> machinery that transforms your <span class="gray">vision into reality</span>
+          <section>
+            <div class="about-us-content container">
+              <h1>
+                <small style="padding-right: 66px;">[Future-Proof Your Production]</small>
+                In a rapidly evolving industrial landscape, staying competitive means embracing the latest technology.A
               </h1>
-            </div>
-          
-            <div class="card">
-              <div class="card-controls">
-                <button class="nav-btn prev">&lt</button>
-                <button class="nav-btn next">&gt</button>
-              </div>
-
-              <div class="image-wrapper">
-                <img src="images/potatoes.svg" alt="Packaging Process">
-              </div>
-
-              <div id="packaging" class="content-wrapper">
-                <h2>Packaging</h2>
-                <p>Food Processing Machinery / Packaging Machinery</p>
-                <p>Filling-bottling Equipment / Product Inspection Equipment</p>
-                <button class="main-buttons">Explore Packaging</button>
+              <h1 style="margin-top: 3rem;">
+                At E-Morenos, we provide <span class="gray">advanced machinery</span> and <span class="gray">robotic systems</span> that not only meet today's demands but also anticipate tomorrow's challenges. Invest in reliability, precision, and the peace of mind that comes with future-ready solutions.
+              </h1>
+              <div class="button-wrapper">
+                <button class="main-buttons">About Us</button>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+          <section>
+            <div class="container">
+              <div id="services" class="about-us-content">
+                <small>[Advanced Products]</small>
+                <h1> 
+                  Experience <span class="gray">innovative</span> machinery that transforms your <span class="gray">vision into reality</span>
+                </h1>
+              </div>
+            
+              <div class="card">
+                <div class="card-controls">
+                  <button class="nav-btn prev">&lt</button>
+                  <button class="nav-btn next" style="background-color: #252525;">&gt</button>
+                </div>
 
+                <div class="image-wrapper">
+                  <img src="images/potatoes.svg" alt="Packaging Process">
+                </div>
+
+                <div id="packaging" class="content-wrapper">
+                  <h2>Packaging</h2>
+                  <p>Food Processing Machinery / Packaging Machinery</p>
+                  <p>Filling-bottling Equipment / Product Inspection Equipment</p>
+                  <button id="explore-packaging" class="main-buttons">Explore Packaging</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
         <section>
           <div class="container"> 
             <div id="services" class="about-us-content">
@@ -94,17 +98,23 @@
               <div class="service-card">
                 <h2 style="margin-bottom: 2rem;">Comprehensive Packaging Solutions</h2>
                 <p>We offer complete solutions from machinery to materials, covering every stage of your production process</p>
-                <div class="service-icon-placeholder"></div>
+                <div>
+                  <img src="images/shape1.svg"/> 
+                </div>
               </div>
               <div class="service-card">
                 <h2 style="margin-bottom: 2rem;">Cutting-Edge Technology & Innovation</h2>
                 <p>We offer complete solutions from machinery to materials, covering every stage of your production process.</p>
-                <div class="service-icon-placeholder"></div>
+                <div>
+                  <img src="images/shape2.svg"/>
+                </div>
               </div>
               <div class="service-card">
                 <h2 style="margin-bottom: 2rem;">Expertise and Dedicated Suppor</h2>
                 <p>We offer complete solutions from machinery to materials, covering every stage of your production process.</p>
-                <div class="service-icon-placeholder"></div>
+                <div>
+                  <img src="images/shape3.svg"/>
+                </div>
               </div>
             </div>
             <div class="button-wrapper">
@@ -165,7 +175,10 @@
         <section class="gray-background" style="padding-top: 4rem; padding-bottom: 4rem;">
           <div class="container">
             <div class="blue-background flex-boxxing" style="padding: 4rem;">
-              <div style="width: 40; margin-right: 10rem;">
+              <div style="width: 40; margin-right: 10rem; position: relative;">
+                <div style="position: absolute; top: 45%; right: 6%">
+                  <img src="images/M-Vector.svg">
+                </div>
                 <small class="white-text">[Contant Us]</small>
                 <h1 class="white-text">Stay updated with the latest trends and expert advice in industrial automation</h1>
               </div>
@@ -181,50 +194,56 @@
           </div>
         </section>
           
-        <footer class="site-footer" style="padding-top: 8rem;">
-            <img src="images/logo-dark.svg" style="width: 100%; margin: 0 auto;"> 
-            <div class="footer-top" style="max-width: 100%; margin-top: 5rem;">
-              <div class="footer-column newsletter">
-                <p style="font-size: 20px;"><strong>Subscribe to the Morenos Newsletter</strong></p>
-                <p>Latest news, announcements and updates direct to your inbox</p>
-                <div style="display: flex; flex-direction: column; max-width: 50%;">
-                  <input type="email" placeholder="Email address">
-                  <label>
-                    <input type="checkbox"> By signing up to the newsletter, I agree to Morenos processing my personal data.
-                  </label>
-                </div>
-                <button class="main-buttons" style="margin-top: 2rem;">Keep me Updated</button>
+        <footer class="site-footer" style="padding-top: 8rem; padding-inline: 8rem;">
+          <img src="images/logo-dark.svg" style="width: 100%; margin: 0 auto;"> 
+          <div class="footer-top" style="max-width: 100%; margin-top: 5rem;">
+            <div class="footer-column newsletter">
+              <p style="font-size: 20px;"><strong>Subscribe to the Morenos Newsletter</strong></p>
+              <p class="footer-gray">Latest news, announcements and updates direct to your inbox</p>
+              <div style="display: flex; flex-direction: column; max-width: 65%;">
+                <input type="email" placeholder="Email address">
+                <label> By signing up to the newsletter, I agree to Morenos processing my personal data in line with the privacy policy and terms of use.
+                  <span class="checkmark"></span>
+                </label>
               </div>
-
-              <div class="footer-column footer-products">
-                <div>
-                  <h3>PRODUCTS</h3>
-                  <ul>
-                    <li>Packaging</li>
-                    <li>Robotics</li>
-                    <li>Logistics</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>ABOUT</h3>
-                  <ul>
-                    <li>Company</li>
-                    <li>Services</li>
-                    <li>Clients</li>
-                    <li>Blog</li>
-                    <li>ESG</li>
-                    <li>Contact</li>
-                  </ul>
-                </div>
+              <button class="main-buttons">Keep me Updated</button>
+            </div>
+            <div class="footer-column footer-products">
+              <div>
+                <p class="footer-gray" style="font-size: 15px;">PRODUCTS</p>
+                <ul class="footer-right-column">
+                  <li>Packaging</li>
+                  <li>Robotics</li>
+                  <li>Logistics</li>
+                </ul>
               </div>
+              <div>
+                <p class="footer-gray" style="font-size: 15px;">ABOUT</p>
+                <ul class="footer-right-column">
+                  <li>Company</li>
+                  <li>Services</li>
+                  <li>Clients</li>
+                  <li>Blog</li>
+                  <li>ESG</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div class="footer-bottom">
-            <div class="social-links">f | x | in</div>
+            <div class="social-links" style="max-width: 5%; gap: 2rem;">
+              <img src="images/Facebook.svg">
+              <img src="images/X.svg">
+              <img src="images/Linkedin.svg">
+            </div>
             <div class="legal-links">
               <span>Cookie Policy</span> <span>Privacy Policy</span> <span>Terms of Use</span>
             </div>
-            <div class="copyright">Copyright © 2025 Morenos | with ❤️ by Darkpony</div>
+            <div> 
+              <span style="font-family: Inter;">Copyright © 2025 Morenos </span>
+              <span>with 💙 by Darkpony </span>
+            </div>
           </div>
         </footer>
        <main>

@@ -109,7 +109,7 @@ p {
 
 .primary-navigation ul{
     display: flex;
-    gap: 24px;
+    gap: 10px;
     list-style: none;
     font-size: 20px;
     color: white;
@@ -140,7 +140,7 @@ p {
 .button-wrapper {
     display: flex;
     justify-content: flex-end;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .about-us-btn {
@@ -200,18 +200,15 @@ p {
 .nav-btn {
     width: 40px;
     height: 40px;
-    border-radius: 50%; 
+    border-radius: 100px; 
     border: none;
-    background-color: #e0e0e0;
+    background-color: #cbcbcb;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.nav-btn:hover {
-    background-color: #333;
-    color: white;
+    font-size: 21px;
+    color: #ffffff;
 }
 
 #services {
@@ -242,12 +239,6 @@ p {
     margin-left: auto;
 }
 
-.service-icon-placeholder {
-  width: 100px;
-  height: 100px;
-  border: 2px solid blue; 
-}
-
 .explore-btn {
     margin-top: 3rem;
 }
@@ -271,7 +262,7 @@ p {
 
 .site-footer {
   padding: 60px 40px;
-  background-color: #f0f0f0; 
+  background-color: #E9E9E9; 
 }
 
 .footer-top {
@@ -291,8 +282,14 @@ p {
 
 .footer-bottom {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-top: 20px;
-  font-size: 0.9em;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Helvetica Neue, Arial;
+  font-weight: 400;
+  margin-top: 7rem;
 }
 
 .robots-grid {
@@ -336,7 +333,97 @@ p {
 }
 
 input {
-    border-radius: 1rem;
+    border-radius: 2rem;
     height: 2rem;
     margin: 1rem 0rem;
+    font-size: 16px;
+    padding: .5rem 1rem;
+}
+
+.burger-button {
+    background-color: #ffffff;
+    color: #252525;
+    border: none;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+}
+
+#explore-packaging {
+    border-style: solid;
+    background-color: #ffffff;
+    color: #252525;
+    margin-top: 1rem;
+}
+
+.footer-gray {
+    color: #515151;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.footer-right-column {
+    color: #252525;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+label {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+    font-size: 13px;
+    color: #515151;
+}
+
+label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid #979797;
+}
+
+.footer-bottom div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 33%;
+}
+
+.footer-bottom img {
+    max-width: 13.7px;
+    height: 14px;
+}
+
+.sigma-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.sigma-logo {
+    position: absolute;
+    top: 23%;
+    left: 77%;
+    z-index: 0;
+    pointer-events: 0;
+    user-select: 0;
+    line-height: 1;
+}
+
+.sigma-wrapper section {
+    position: relative;
+    z-index: 1;
 }
