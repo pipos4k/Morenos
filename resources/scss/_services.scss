@@ -1,0 +1,32 @@
+@use "variables" as *;
+
+#services,
+.services-intro {
+    width: 45%;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 5px;
+    height: 591px;
+    padding-top: 40px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+    background: $light-gray;
+
+    > div:last-child {
+        margin-top: auto;
+        margin-left: auto;
+    }
+}
+
+.card-h2 {
+    margin-bottom: 2rem;
+}

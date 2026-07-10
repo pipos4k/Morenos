@@ -1,0 +1,99 @@
+@use "variables" as *;
+
+.footer-logo {
+    width: 100%;
+    height: auto;
+}
+
+.form-control {
+    border: 1px solid $dark;
+    padding: 12px 24px;
+    font-size: 16px;
+    box-shadow: none;
+    font-weight: 500;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: none;
+    }
+}
+
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid $dark;
+    margin-top: 0.15rem;
+    &:checked {
+        background-color: $primary;
+        border-color: $primary;
+    }
+    &:focus {
+        box-shadow: none;
+        border-color: $primary;
+    }
+}
+
+.form-check-label {
+    max-width: 82%;
+    font-size: 13px;
+    color: $text;
+
+    a {
+        color: $dark;
+        text-decoration: underline;
+    }
+}
+
+.btn-arrow {
+    padding: 12px 28px;
+
+    .arrow {
+        display: inline-block;
+        margin-left: 8px;
+        transition: 0.3s;
+    }
+
+    &:hover .arrow {
+        transform: translateX(4px);
+    }
+}
+
+.footer-products-links {
+    font-size: 17px;
+    font-weight: 600;
+
+    a {
+        color: $dark;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.social-link {
+    color: $text;
+    transition: 0.3s;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.legal-links {
+    color: #3b3b3b;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.footer-bottom-size {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}

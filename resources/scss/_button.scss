@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+.btn-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+
+    .arrow {
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        .arrow {
+            max-width: 20px;
+            opacity: 1;
+            margin-left: 8px;
+        }
+    }
+}

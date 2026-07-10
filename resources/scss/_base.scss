@@ -1,0 +1,56 @@
+@use "variables" as *;
+
+body {
+    background: $background;
+    color: $dark;
+    font-family: $font-main;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 1rem;
+    font: {
+        family: $font-main;
+        weight: 600;
+        size: 42px;
+    }
+    line-height: 50px;
+}
+
+h2 {
+    font: {
+        weight: 600;
+        size: 29px;
+    }
+    line-height: 38px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+small {
+    color: $primary;
+
+    font: {
+        family: $font-main;
+        weight: 500;
+        size: 16px;
+    }
+
+    line-height: 24px;
+}
+
+p,
+label,
+.footer-gray {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.footer-gray,
+label {
+    color: $text;
+}

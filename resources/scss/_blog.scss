@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+.blog-heading {
+    max-width: 55%;
+}
+
+.robots-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+    height: 582px;
+}
+
+.robot-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    background: $light-gray;
+
+    &__cta {
+        margin-top: auto;
+        margin-right: auto;
+    }
+}
+
+.robot-img {
+    margin-top: auto;
+    max-width: 100%;
+}

@@ -1,0 +1,28 @@
+@use "variables" as *;
+
+.gray {
+    color: $gray;
+}
+
+.gray-25 {
+    color: $dark;
+}
+
+.gray-3B {
+    color: $gray-3b;
+}
+
+.gray-51 {
+    color: $text;
+}
+s .white-text {
+    color: $white;
+}
+
+.gray-background {
+    background: $dark;
+}
+
+.blue-background {
+    background: $primary;
+}

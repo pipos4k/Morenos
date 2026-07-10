@@ -1,0 +1,24 @@
+@use "variables" as *;
+
+.contact-section {
+    padding: 4rem 0;
+}
+
+.contact-text {
+    position: relative;
+    width: 40%;
+    margin-right: 10rem;
+}
+
+.become-a-partner {
+    width: 50%;
+
+    padding: 3rem;
+
+    border-radius: 1rem;
+    background: $white;
+
+    img {
+        margin-top: 0;
+    }
+}
