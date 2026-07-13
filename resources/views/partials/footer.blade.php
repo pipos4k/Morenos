@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="d-flex align-items-center justify-content-between py-4 footer-bottom-size">
+        <div class="d-flex align-items-center justify-content-between py-4 mt-4 footer-bottom-size">
             <div class="d-flex gap-4">
                 <a href="#" class="social-link">
                     <svg width="9" height="16" viewBox="0 0 9 16" xmlns="http://www.w3.org/2000/svg">

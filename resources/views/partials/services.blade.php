@@ -1,11 +1,12 @@
 <section class="container">
     <div class="services-intro about-us-content">
         <small>[Services]</small>
-        <h1 style="width: 646px;">
+        <h1>
             Experience <span class="gray">innovative machinery </span> that transforms your vision into reality
         </h1>
         <p>
-            Invest in reliability, precision, and the peace of mind that comes with future-ready solutions. Invest in
+            Invest in reliability, precision, and the peace of mind that comes with future-ready solutions. Invest
+            in
             reliability, precision, and the peace of mind that comes with future-ready solutions.
         </p>
     </div>
@@ -36,7 +37,9 @@
         </div>
     </div>
     <div class="button-wrapper">
-        <button type="button" class="btn btn-primary rounded-5 w-auto btn-arrow">Explore Services<span
-                class="arrow">&rarr;</span></button>
+        <a href="#">
+            <button type="button" class="btn btn-primary rounded-5 w-auto btn-arrow">Explore Services<span
+                    class="arrow">&rarr;</span></button>
+        </a>
     </div>
 </section>

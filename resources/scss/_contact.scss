@@ -1,5 +1,11 @@
 @use "variables" as *;
 
+.blue-background {
+    background: $primary;
+    min-height: clamp(400px, 40vw, 774px);
+    padding: 5rem;
+}
+
 .contact-section {
     padding: 4rem 0;
 }
@@ -13,12 +19,21 @@
 .become-a-partner {
     width: 50%;
 
-    padding: 3rem;
+    padding: 1.5rem;
 
     border-radius: 1rem;
     background: $white;
 
     img {
         margin-top: 0;
+    }
+
+    > p {
+        color: $text;
+    }
+
+    > h3 {
+        padding-top: 3rem;
+        font-weight: 600;
     }
 }

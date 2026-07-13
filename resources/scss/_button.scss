@@ -20,3 +20,16 @@
         }
     }
 }
+
+.btn-explore-packaging {
+    width: 33%;
+    color: $dark;
+    border: 1px solid $dark;
+
+    &:hover,
+    &:focus {
+        border-color: $primary;
+        color: $primary;
+        background-color: $white;
+    }
+}
