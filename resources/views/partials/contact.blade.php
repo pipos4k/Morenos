@@ -12,7 +12,7 @@
             </div>
 
             <div class="become-a-partner d-flex flex-column">
-                <div class="img-wrapper mb-auto">
+                <div class="img-scaling mb-auto">
                     <a href="#">
                         <img src="images/electrician-guy.svg" alt="Packaging Process">
                     </a>
@@ -21,8 +21,7 @@
                 <p>We offer complete solutions from machinery to materials, covering every stage of your production
                     process.</p>
                 <a href="#">
-                    <button class="btn btn-primary rounded-5 w-auto btn-arrow">Learn More <span
-                            class="arrow">&rarr;</span></button>
+                    <x-cta-button>Learn More</x-cta-button>
                 </a>
             </div>
 

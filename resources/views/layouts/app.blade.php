@@ -5,7 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Morenos</title>
+    <title>@yield('title', 'Morenos')</title>
+    <meta name="description" content="@yield('description', 'Morenos.')">
+
+    <meta property="og:title" content="@yield('title', 'Morenos')">
+    <meta property="og:description" content="@yield('description', 'Morenos')">
+    <meta property="og:type" content="website">
 
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 

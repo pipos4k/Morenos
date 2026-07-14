@@ -11,35 +11,21 @@
         </p>
     </div>
     <div class="service-grid">
-        <div class="service-card">
-            <h2 class="card-h2">Comprehensive Packaging Solutions</h2>
-            <p>We offer complete solutions from machinery to materials, covering every stage of your production process
-            </p>
-            <div>
-                <img src="images/shape1.svg" />
-            </div>
-        </div>
-        <div class="service-card">
-            <h2 class="card-h2">Cutting-Edge Technology & Innovation</h2>
-            <p>We offer complete solutions from machinery to materials, covering every stage of your production process.
-            </p>
-            <div>
-                <img src="images/shape2.svg" />
-            </div>
-        </div>
-        <div class="service-card">
-            <h2 class="card-h2">Expertise and Dedicated Support</h2>
-            <p>We offer complete solutions from machinery to materials, covering every stage of your production process.
-            </p>
-            <div>
-                <img src="images/shape3.svg" />
-            </div>
-        </div>
+        <x-service-card title="Comprehensive Packaging Solutions" image="images/shape1.svg">
+            We offer complete solutions from machinery to materials, covering every stage of your production process.
+        </x-service-card>
+
+        <x-service-card title="Cutting-Edge Technology & Innovation" image="images/shape2.svg">
+            We offer complete solutions from machinery to materials, covering every stage of your production process.
+        </x-service-card>
+
+        <x-service-card title="Expertise and Dedicated Support" image="images/shape3.svg">
+            We offer complete solutions from machinery to materials, covering every stage of your production process.
+        </x-service-card>
     </div>
     <div class="button-wrapper">
         <a href="#">
-            <button type="button" class="btn btn-primary rounded-5 w-auto btn-arrow">Explore Services<span
-                    class="arrow">&rarr;</span></button>
+            <x-cta-button>Explore Services</x-cta-button>
         </a>
     </div>
 </section>

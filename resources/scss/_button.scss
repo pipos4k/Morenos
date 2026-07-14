@@ -1,5 +1,14 @@
 @use "variables" as *;
 
+.btn-style {
+    font-weight: 500 !important;
+    background-color: $primary !important;
+
+    &:hover {
+        background-color: $hover-btn !important;
+    }
+}
+
 .btn-arrow {
     display: inline-flex;
     align-items: center;

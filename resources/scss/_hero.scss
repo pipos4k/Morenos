@@ -2,7 +2,7 @@
 
 .video-header {
     position: relative;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 .header-video {
@@ -40,16 +40,20 @@
 }
 
 .burger-button {
+    background-color: $white !important;
     width: 45px;
     height: 45px;
 
     border: none;
-    border-radius: 50%;
+    border-radius: 2rem;
 
-    background: $white;
     color: $dark;
 
     cursor: pointer;
+
+    &:hover {
+        background-color: $primary !important;
+    }
 }
 
 .primary-navigation {

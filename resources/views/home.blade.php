@@ -1,21 +1,19 @@
 @extends('layouts.app')
 
+@section('title', 'Morenos')
+@section('description', 'Explore Morenos')
 @section('bodyClass', 'site-background')
+
 
 @section('content')
 
     @include('partials.hero')
 
     <main id="main">
-        <div class="sigma-wrapper">
-            <div class="sigma-logo">
-                <img src="images/Sigma-Vector.svg">
-            </div>
-
+        <x-sigma-wrapper>
             @include('partials.about-us')
             @include('partials.advanced-products')
-
-        </div>
+        </x-sigma-wrapper>
 
         @include('partials.services')
 

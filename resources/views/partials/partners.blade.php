@@ -10,8 +10,7 @@
     </div>
     <div class="button-wrapper">
         <a href="#">
-            <button class="btn btn-primary rounded-5 w-auto btn-arrow">Explore All<span
-                    class="arrow">&rarr;</span></button>
+            <x-cta-button>Explore All</x-cta-button>
         </a>
     </div>
 </section>

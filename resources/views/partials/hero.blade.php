@@ -15,7 +15,7 @@
                     <ul class="d-flex align-items-center gap-2 list-unstyled mb-0">
                         <li>
                             <a href="#">
-                                <button class="btn btn-primary rounded-5 w-auto btn-arrow">
+                                <button class="btn btn-primary rounded-5 w-auto btn-arrow btn-style">
                                     Get In Touch
                                     <span class="arrow">&rarr;</span>
                                 </button>
@@ -24,7 +24,8 @@
                         <li>
                             <button class="btn btn-primary burger-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#burgerMenu" aria-expanded="false" aria-controls="burgerMenu">
-                                &#9776;
+
+                                <img src="images/burger-button.svg" />
                             </button>
                         </li>
                     </ul>

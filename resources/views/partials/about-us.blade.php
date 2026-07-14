@@ -10,7 +10,7 @@
     </h1>
     <div class="button-wrapper">
         <a href="#">
-            <button class="btn btn-primary rounded-5 w-auto btn-arrow">About Us<span class="arrow">&rarr;</span></button>
+            <x-cta-button>About Us</x-cta-button>
         </a>
     </div>
 </section>

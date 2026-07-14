@@ -9,18 +9,18 @@
         </div>
         <div class="robots-grid mt-5">
 
-            <div class="robot-card rounded-2 d-flex flex-column">
+            <x-robot-card>
                 <p>July 18, 2024</p>
                 <h3>Boost Your Production: The Latest Innovations in Packaging Machinery</h3>
-                <div class="img-wrapper mt-auto">
+                <div class="img-scaling mt-auto">
                     <a href="#">
                         <img class="robot-img" src="images/robot-vehicles.svg">
                     </a>
                 </div>
-            </div>
+            </x-robot-card>
 
-            <div class="robot-card rounded-2">
-                <div class="img-wrapper">
+            <x-robot-card :stacked="false">
+                <div class="img-scaling">
                     <a href="#">
                         <img src="images/robot-hands.svg">
                     </a>
@@ -32,23 +32,22 @@
                             Services</button>
                     </a>
                 </div>
-            </div>
+            </x-robot-card>
 
-            <div class="robot-card rounded-2 d-flex flex-column">
+            <x-robot-card>
                 <p>July 18, 2024</p>
                 <h3>Boost Your Production: The Latest Innovations in Packaging Machinery</h3>
-                <div class="img-wrapper mt-auto">
+                <div class="img-scaling mt-auto">
                     <a href="#">
                         <img class="robot-img" src="images/robot-crane.svg">
                     </a>
                 </div>
-            </div>
+            </x-robot-card>
         </div>
 
         <div class="button-wrapper">
             <a href="#">
-                <button class="btn btn-primary rounded-5 w-auto btn-arrow">Read All<span
-                        class="arrow">&rarr;</span></button>
+                <x-cta-button>Read All</x-cta-button>
             </a>
         </div>
     </div>

@@ -20,7 +20,7 @@
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-6">
-                            <img class="img-wrapper" src="images/potatoes.svg" alt="Packaging Process">
+                            <img src="images/potatoes.svg" alt="Packaging Process">
                         </div>
                         <div class="col-6 d-flex flex-column">
                             <div class="content-wrapper d-flex flex-column ms-4">
@@ -40,7 +40,7 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-6">
-                            <img class="img-wrapper" src="images/potatoes.svg" alt="Packaging Process">
+                            <img src="images/potatoes.svg" alt="Packaging Process">
                         </div>
                         <div class="col-6 d-flex flex-column">
                             <div class="content-wrapper d-flex flex-column ms-4">
@@ -60,7 +60,7 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-6">
-                            <img class="img-wrapper" src="images/potatoes.svg" alt="Packaging Process">
+                            <img src="images/potatoes.svg" alt="Packaging Process">
                         </div>
                         <div class="col-6 d-flex flex-column">
                             <div class="content-wrapper d-flex flex-column ms-4">

@@ -21,7 +21,7 @@
                 </div>
 
                 <a href="#">
-                    <button class="btn btn-primary rounded-5 w-auto btn-arrow">
+                    <button class="btn btn-primary rounded-5 w-auto btn-arrow btn-style">
                         Keep me Updated<span class="arrow">&rarr;</span>
                     </button>
                 </a>
