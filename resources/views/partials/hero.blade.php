@@ -1,5 +1,5 @@
 <header class="video-header">
-    <video class="header-video" muted loop playsinline>
+    <video class="header-video" autoplay muted loop playsinline>
         <source src="images/morenos_video_homepage.mp4" type="video/mp4">
     </video>
 
