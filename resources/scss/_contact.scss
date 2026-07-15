@@ -18,9 +18,7 @@
 
 .become-a-partner {
     width: 50%;
-
     padding: 1.5rem;
-
     border-radius: 1rem;
     background: $white;
 
@@ -33,7 +31,11 @@
     }
 
     > h3 {
-        padding-top: 3rem;
+        padding-top: 2rem;
         font-weight: 600;
+    }
+
+    .button-wrapper {
+        justify-content: flex-start;
     }
 }
