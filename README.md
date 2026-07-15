@@ -2,7 +2,7 @@
 
 ## Tech Stack
 
-- PHP 8.3 / Laravel 13
+- PHP 8.4 / Laravel 13
 - Blade templates (layouts, partials, components)
 - Vite
 - Bootstrap 5
